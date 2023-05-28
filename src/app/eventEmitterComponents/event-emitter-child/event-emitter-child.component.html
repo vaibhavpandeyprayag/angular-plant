@@ -1,0 +1,12 @@
+<div class="container d-flex flex-column gap-2 p-2 border border-3">
+  <h5>Child Component</h5>
+  <div class="input-group">
+    <label class="input-group-text" id="input-label">Output For Parent</label>
+    <input
+      class="form-control"
+      aria-describedby="input-label"
+      [value]="outputForParent"
+      (input)="updateOutputForParent($event)"
+    />
+  </div>
+</div>

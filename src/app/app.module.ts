@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './shared/header/header.component';
 import { HomeComponent } from './home/home.component';
 import { EventEmitterComponent } from './event-emitter/event-emitter.component';
+import { EventEmitterParentComponent } from './eventEmitterComponents/event-emitter-parent/event-emitter-parent.component';
+import { EventEmitterChildComponent } from './eventEmitterComponents/event-emitter-child/event-emitter-child.component';
 
 @NgModule({
   declarations: [
@@ -13,6 +15,8 @@ import { EventEmitterComponent } from './event-emitter/event-emitter.component';
     HeaderComponent,
     HomeComponent,
     EventEmitterComponent,
+    EventEmitterParentComponent,
+    EventEmitterChildComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],

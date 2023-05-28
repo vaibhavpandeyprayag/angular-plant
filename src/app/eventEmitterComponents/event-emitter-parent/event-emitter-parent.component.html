@@ -1,0 +1,9 @@
+<div class="container d-flex flex-column gap-3 p-3 border border-5">
+  <h5>Parent Component</h5>
+  <div class="d-flex gap-2 align-items-center">
+    <label>Output From Child: {{ outputFromChild }}</label>
+  </div>
+  <app-event-emitter-child
+    (outputForParentChange)="updateOutputFromChild($event)"
+  ></app-event-emitter-child>
+</div>
