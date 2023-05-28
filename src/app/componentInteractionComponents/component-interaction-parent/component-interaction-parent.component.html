@@ -3,7 +3,7 @@
   <div class="d-flex gap-2 align-items-center">
     <label>Output From Child: {{ outputFromChild }}</label>
   </div>
-  <app-event-emitter-child
+  <app-component-interaction-child
     (outputForParentChange)="updateOutputFromChild($event)"
-  ></app-event-emitter-child>
+  ></app-component-interaction-child>
 </div>

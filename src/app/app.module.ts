@@ -5,18 +5,18 @@ import { AppComponent } from './app.component';
 
 import { HeaderComponent } from './shared/header/header.component';
 import { HomeComponent } from './home/home.component';
-import { EventEmitterComponent } from './event-emitter/event-emitter.component';
-import { EventEmitterParentComponent } from './eventEmitterComponents/event-emitter-parent/event-emitter-parent.component';
-import { EventEmitterChildComponent } from './eventEmitterComponents/event-emitter-child/event-emitter-child.component';
+import { ComponentInteractionComponent } from './component-interaction/component-interaction.component';
+import { ComponentInteractionParentComponent } from './componentInteractionComponents/component-interaction-parent/component-interaction-parent.component';
+import { ComponentInteractionChildComponent } from './componentInteractionComponents/component-interaction-child/component-interaction-child.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     HomeComponent,
-    EventEmitterComponent,
-    EventEmitterParentComponent,
-    EventEmitterChildComponent,
+    ComponentInteractionComponent,
+    ComponentInteractionParentComponent,
+    ComponentInteractionChildComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],

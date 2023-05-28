@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { EventEmitterChildComponent } from './event-emitter-child.component';
+import { EventEmitterChildComponent } from './component-interaction-child.component';
 
 describe('EventEmitterChildComponent', () => {
   let component: EventEmitterChildComponent;
@@ -8,7 +8,7 @@ describe('EventEmitterChildComponent', () => {
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [EventEmitterChildComponent]
+      declarations: [EventEmitterChildComponent],
     });
     fixture = TestBed.createComponent(EventEmitterChildComponent);
     component = fixture.componentInstance;

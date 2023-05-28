@@ -1,11 +1,11 @@
 import { Component, Output, EventEmitter } from '@angular/core';
 
 @Component({
-  selector: 'app-event-emitter-child',
-  templateUrl: './event-emitter-child.component.html',
-  styleUrls: ['./event-emitter-child.component.css'],
+  selector: 'app-component-interaction-child',
+  templateUrl: './component-interaction-child.component.html',
+  styleUrls: ['./component-interaction-child.component.css'],
 })
-export class EventEmitterChildComponent {
+export class ComponentInteractionChildComponent {
   outputForParent: string = '';
   @Output()
   outputForParentChange: EventEmitter<string> = new EventEmitter<string>();

@@ -1,12 +1,12 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
-import { EventEmitterComponent } from './event-emitter/event-emitter.component';
+import { ComponentInteractionComponent } from './component-interaction/component-interaction.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full' },
   { path: 'home', component: HomeComponent },
-  { path: 'eventemitter', component: EventEmitterComponent },
+  { path: 'componentinteraction', component: ComponentInteractionComponent },
 ];
 
 @NgModule({
