@@ -8,6 +8,9 @@ import { HomeComponent } from './home/home.component';
 import { ComponentInteractionComponent } from './component-interaction/component-interaction.component';
 import { ComponentInteractionParentComponent } from './componentInteractionComponents/component-interaction-parent/component-interaction-parent.component';
 import { ComponentInteractionChildComponent } from './componentInteractionComponents/component-interaction-child/component-interaction-child.component';
+import { AttributeDirectiveDirective } from './attribute-directive.directive';
+import { DirectivesComponent } from './directives/directives.component';
+import { AttributeDirectiveWithInputDirective } from './attribute-directive-with-input.directive';
 
 @NgModule({
   declarations: [
@@ -17,6 +20,9 @@ import { ComponentInteractionChildComponent } from './componentInteractionCompon
     ComponentInteractionComponent,
     ComponentInteractionParentComponent,
     ComponentInteractionChildComponent,
+    AttributeDirectiveDirective,
+    DirectivesComponent,
+    AttributeDirectiveWithInputDirective,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
